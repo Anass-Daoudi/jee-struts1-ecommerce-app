@@ -1,0 +1,247 @@
+@font-face {
+	font-family: 'ballpark';
+	src: url('polices/ballpark.ttf');
+}
+
+@font-face {
+	font-family: 'dayrom';
+	src: url('polices/dayrom.ttf');
+}
+
+body {
+	margin: 0;
+	font-family: 'dayrom';
+}
+
+#page {
+	margin: 0;
+	padding: 10px;
+}
+
+#menu {
+	display: flex;
+	/*justify-content:*/
+	margin-right: 0px;
+	position: relative;
+	/*    left: 800px;*/
+	font-size: 20px;
+	bottom: 0px;
+	/*   float:right; */
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.menu {
+	color: aliceblue;
+	background-color: cadetblue;
+	width: 300px;
+	height: 35px;
+	padding: 6px;
+	text-align: center;
+	/*    border:1px solid black;*/
+	/* border-radius: 5px;*/
+}
+
+.menu:hover {
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 400px;
+	height: 35px;
+}
+
+#title {
+	margin-left: 300px;
+}
+
+#paragraph {
+	font-size: 22px;
+	color: darkgray;
+	position: relative;
+	left: 80px;
+}
+
+#start {
+	width: 150px;
+	height: 35px;
+	background-color: cadetblue;
+	color: aliceblue;
+	border-radius: 5px;
+	text-align: center;
+	padding: 5px;
+	font-size: 22px;
+	margin: auto;
+	position: relative;
+	right: 50px;
+}
+
+#baniere {
+	/*position: absolute;
+     right:0px;
+    left:0px;*/
+	width: 100%;
+	height: 556px;
+	background-image: url(image/1.jpg);
+	margin: auto;
+	margin-top: 20px;
+}
+
+#description {
+	margin: auto;
+	/* margin-top: 600px;*/
+	width: 1500px;
+	height: 200px;
+	font-family: dayrom;
+	font-size: 20px;
+	margin-left:500px;
+}
+
+#session {
+	font-family: dayrom;
+	font-size: 20px;
+	/* background-color:#F90;  */
+	float: right;
+}
+
+input, select {
+	width: 230px;
+	height: 35px;
+	border-radius: 5px;
+	outline: none;
+	padding: 6px;
+	font-family: dayrom;
+	font-size: 18px;
+}
+
+select {
+	width: 250px;
+}
+
+textarea {
+	width: 230px;
+	border-radius: 5px;
+	font-family: dayrom;
+	font-size: 18px;
+}
+
+fieldset {
+	margin-top: 30px;
+	width: 500px;
+	border-radius: 10px;
+}
+
+legend {
+	background-color: #BBB;
+	color: #FFF;
+	border-radius: 8px;
+}
+
+#subbut {
+	background-color: cadetblue;
+	color: #FFF;
+	font-family: dayrom;
+	font-size: 20px;
+}
+
+#store, #shop {
+	width: 150px;
+	height: 20px;
+	background-color: cadetblue;
+	color: #FFF;
+	border-radius: 5px;
+	border: 1px solid black;
+	text-align: center;
+	padding: 5px;
+	font-family: dayrom;
+	font-size: 20px;
+}
+
+#ss {
+	margin-top: 20px;
+	width: 400px;
+	height: 100px;
+	display: flex;
+	position: relative;
+	left: 200px;
+	justify-content: row;
+	justify-content: space-between;
+}
+
+#global {
+	
+}
+
+.produit {
+	width: 400px;
+	height: 500px;
+	background-color: floralwhite;
+	border-radius: 8px;
+	margin: 20px;
+	display: inline-block;
+	border: 1px solid black;
+	/* color:aliceblue; */
+	font-family: dayrom;
+	font-size: 20px;
+}
+
+#picture {
+	width: 350px;
+	height: 40%;
+	/* 	background-color:#F90; */
+	border: 1px solid black;
+	margin: 10px;
+	border-radius: 6px;
+}
+
+#description {
+	width: 350px;
+	height: 40%;
+	/* background-color:blue; */
+	font-family: dayrom;
+	font-size: 20px;
+	border: 1px solid black;
+	margin: 10px;
+	border-radius: 6px;
+}
+
+#remove {
+	width: 350px;
+	height: 20%;
+	/* border:1px solid black; */
+	margin: 10px;
+}
+
+#sub1, #sub2 {
+	/* margin-top:100px; */
+	/* position:relative;
+	top:70px; */
+	background-color: cadetblue;
+	color: aliceblue;
+}
+
+#shoppingCart {
+	width: 200px;
+	height: 35px;
+	background-color: cadetblue;
+	color: aliceblue;
+	font-family: dayrom;
+	font-size: 20px;
+	float: right;
+	position: relative;
+	right: 40px;
+	border-radius: 6px;
+	text-align: center;
+}
+
+#sub3 {
+	background-color: cadetblue;
+	color: aliceblue;
+	font-family: dayrom;
+	font-size: 20px;
+}
+
+#tab1 {
+	margin: 100px;
+}
